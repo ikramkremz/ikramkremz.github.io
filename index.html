@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+</head>
+
+<body>
+<style>
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+</style>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}</style>
+
+<!-- navigation button -->
+  <nav>
+      <ul>
+        <li><a href="#bio">Biography</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#timetable">Time Table</a></li>
+		<li><a href="#course details">Courses</a></li>
+        <li><a href="#galleries">Galleries</a></li>
+        <li><a href="#links">Links</a></li>
+		<li><a href="#sign up">Sign up</a></li>
+		 <li><a href="#downloads">Downloads</a></li>
+		 <li><a href="#login">Login</a></li>
+		<li><a href="#logout">Logout</a></li>
+      </ul>
+    </nav>
+
+<!-- Biography -->
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+ <section id="bio">
+      <h2>Biography</h2>
+      <p style="text-align: justify;">Ikram, or Am as people call me, a 22-year-old student currently studying netcentric at Uitm Shah Alam. </p>
+      <p>Although i still relatively new to the course, i find it to be an interesting field of study.</p>
+      <p> Outside of academics, i enjoy watching anime and reading novels in my free time.</p>
+	<div>
+	<center><a target="_blank" href="galleries/image4.jpg">
+	<img src="galleries/image4.jpg" alt="Image 4" style="width:250px;height:350px;">
+	</a></center>
+	</div>
+      <p>Im a soft person, even though my personality can come off as rough. .</p>
+      <p>I also feeling more comfortable around my friends than with my family, which is a common feeling for many people I think.</p>
+      <p>I have a penchant for RnB music and find dressing up to be a confidence booster that helps me communicate better with others.</p>
+	</section>
+</div>
+
+<!-- Resume -->
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+ <section id="resume">
+      <h2>Resume</h2>
+      <h1>MUHAMMAD IKRAM BIN ISKANDAR</h1>
+  <p>Seri Kembangan | Selangor | 013-XXXXXXX | ikramuzairie@gmail.com</p>
+  
+  <h2>Objective:</h2>
+  <p>Highly motivated and enthusiastic beginner web designer seeking an opportunity to apply my creative skills and passion for web design. I am eager to contribute to a dynamic team and enhance my technical abilities while gaining real-world experience in the field.</p>
+  
+  <h2>Education:</h2>
+  <p> BACHELOR OF COMPUTER SCIENCE (HONS.) NETCENTRIC COMPUTING<br>
+  Universiti Teknologi MARA | Shah Alam, Selangor | 2025</p>
+  
+  <h2>Skills:</h2>
+  
+    <li>Proficient in HTML, CSS, and JavaScript</li>
+    <li>Familiarity with responsive web design principles</li>
+    <li>Knowledge of user experience (UX) and user interface (UI) design</li>
+    <li>Experience with Adobe Creative Suite, including Photoshop and Illustrator</li>
+    <li>Basic understanding of content management systems (CMS) such as WordPress</li>
+    <li>Strong attention to detail and ability to meet deadlines</li>
+    <li>Excellent communication and collaboration skills</li>
+  
+  
+  <h2>Projects:</h2>
+  
+    <li>Created a portfolio website to showcase personal projects, utilizing HTML, CSS, and JavaScript to deliver an interactive and visually appealing experience.</li>
+    <li>Assisted in the redesign of an e-commerce website, enhancing the overall user interface and implementing SEO best practices.</li>
+  
+  
+  <h2>Experience:</h2>
+  <p>I dont really have an in hand experience but i  can work in team and hard working person. Can adapt to any environment.</p>
+  
+  <h2>Certifications:</h2>
+  
+    <li>Certificate of completion W3Schools course in HTML</li>
+    </section>
+</div>
+
+<!-- timetable -->
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<section id="timetable">
+
+      <h2>Time Table</h2>
+      <table style="width:100%">
+        <tr>
+			<th>Time</th>
+			<th>Monday</th>
+		    <th>Tuesday</th>
+			<th>Wednesday</th>
+			<th>Thursday</th>
+			<th>Friday</th>
+        </tr>
+		<tr>
+		<td>8-10 AM</td>
+		<td></td>
+		<td><a href="#course3">CSC574</a></td>
+		<td><a href="#course3">CSC574</a></td>
+		<td><a href="#course6">MAT421</a></td>
+		<td><a href="#course1">CSC404</a></td>
+		</tr>
+		<tr>
+		<td>10-12 PM</td>
+		<td><a href="#course5">ICT 450</a></td>
+		<td><a href="#course2">CSC520</a></td>
+		<td><a href="#course1">CSC404</a></td>
+		<td></td>
+		<td><a href="#course7">STA416</a></td>
+		</tr>
+		<tr>
+		<td>1-2 PM</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>2-4 PM</td>
+		<td></td>
+		<td></td>
+		<td><a href="#course2">CSC520</a></td>
+		<td><a href="#course7">STA416</a></td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>4-6 PM</td>
+		<td><a href="#course6">MAT421</a></td>
+		<td><a href="#course5">ICT 450</a></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>7-8 PM</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		</tr>
+		<tr>
+		<td>8 -10 PM</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		</tr>
+		
+      </table>
+	  </section>
+</div>
+
+<!-- course details -->
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+ <section id="course details">
+			 <section id="course3">
+			<h2>Dynamic Web Application Development</h2>
+			<p>Teached by mdm  Aina Khadijah</p>
+			</section>
+			 <section id="course5">
+			<h2>Database Design and Development</h2>
+			<p>Teached by mdm  Aziah</p>
+			</section>
+			<section id="course1">
+			<h2>Programming 2</h2>
+			<p>Teached by mdm  Shakirah</p>
+			</section>
+			<section id="course2">
+			<h2>Principles of Operating System</h2>
+			<p>Teached by mdm  Haslinda</p>
+			</section>
+			<section id="course4">
+			<h2>Fundamentals of Ghazal</h2>
+			<p>Teached by Sir Hazim</p>
+			</section>
+			<section id="course6">
+			<h2>Calculus 1</h2>
+			<p>Teached by mdm  Syaza Latif</p>
+			</section>
+			<section id="course7">
+			<h2>Statistic and Probability</h2>
+			<p>Teached by mdm  Fadhilah Radi </p>
+			</section>
+	</section>
+</div>
+
+<!-- galleries -->
+<div style="margin-left:25%;padding:1px 16px;height:3500px;">
+ <section id="galleries">
+    <h3>Galleries</h3>
+    <!-- Video -->
+<h4>Videos</h4>
+<video width="320" height="240" controls>
+	<source src="galleries/video1.mp4" type="video/mp4">
+	<source src="galleries/video1.ogg" type="video/ogg">
+	Your browser does not support the video element.
+</video>
+
+<video width="320" height="240" controls>
+	<source src="galleries/video2.mp4" type="video/mp4">
+	<source src="galleries/video2.ogg" type="video/ogg">
+	Your browser does not support the video element.
+</video>
+
+<video width="320" height="240" controls>
+	<source src="galleries/video3.mp4" type="video/mp4">
+	<source src="galleries/video3.ogg" type="video/ogg">
+	Your browser does not support the video element.
+</video>
+
+<video width="320" height="240" controls>
+	<source src="galleries/video4.mp4" type="video/mp4">
+	<source src="galleries/video4.ogg" type="video/ogg">
+	Your browser does not support the video element.
+</video>
+
+<video width="320" height="240" controls>
+	<source src="galleries/video5.mp4" type="video/mp4">
+	<source src="galleries/video5.ogg" type="video/ogg">
+	Your browser does not support the video element.
+</video>
+
+<!-- Image -->
+<h5>Images</h5>
+<div>
+<a target="_blank" href="galleries/image1.jpg">
+<img src="galleries/image1.jpg" alt="Image 1" style="width:200px;height:200px;">
+</a>
+</div>
+
+<div>
+<a target="_blank" href="galleries/image2.jpg">
+<img src="galleries/image2.jpg" alt="Image 2" style="width:200px;height:200px;">
+</a>
+</div>
+
+<div>
+<a target="_blank" href="galleries/image3.jpg">
+<img src="galleries/image3.jpg" alt="Image 3" style="width:200px;height:200px;">
+</a>
+</div>
+
+<div>
+<a target="_blank" href="galleries/image4.jpg">
+<img src="galleries/image4.jpg" alt="Image 4" style="width:200px;height:200px;">
+</a>
+</div>
+
+<div>
+<a target="_blank" href="galleries/image5.jpg">
+<img src="galleries/image5.jpg" alt="Image 5" style="width:200px;height:200px;">
+</a>
+</div>
+
+<div>
+<a target="_blank" href="galleries/image6.jpg">
+<img src="galleries/image6.jpg" alt="Image 6" style="width:200px;height:200px;">
+</a>
+</div>
+
+<div>
+<a target="_blank" href="galleries/image7.jpg">
+<img src="galleries/image7.jpg" alt="Image 7" style="width:200px;height:200px;">
+</a>
+</div>
+
+<div>
+<a target="_blank" href="galleries/image8.jpg">
+<img src="galleries/image8.jpg" alt="Image 8" style="width:200px;height:200px;">
+</a>
+</div>
+
+<div>
+<a target="_blank" href="galleries/image9.jpg">
+<img src="galleries/image9.jpg" alt="Image 9" style="width:250px;height:350px;">
+</a>
+</div>
+
+<div>
+<a target="_blank" href="galleries/image10.jpg">
+<img src="galleries/image10.jpg" alt="Image 10" style="width:200px;height:200px;">
+</a>
+</div>
+
+<div>
+<a target="_blank" href="galleries/image11.jpg">
+<img src="galleries/image11.jpg" alt="Image 11" style="width:550px;height:350px;">
+</a>
+</div>
+</section>
+</div>
+
+
+
+<!-- links -->
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<section id="links">
+ <h1>Welcome to My Website</h1>
+      <p>Feel free to follow me on my social media:</p>
+      
+        <li><a href="https://instagram.com/ikramkremz?igshid=YmMyMTA2M2Y="><img src="instagram.png " alt="Instagram" style="height:200px;width:200px"></a></li>
+</section>
+</div>
+
+
+
+<!-- sign up form -->
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<section id="sign up">
+<form>
+<h3> Sign up </h3>
+  <table>
+    <tr>
+      <td>ID:</td>
+      <td><input type="text" name="id"></td>
+    </tr>
+    <tr>
+      <td>Password:</td>
+      <td><input type="password" name="password"></td>
+    </tr>
+    <tr>
+      <td>First Name:</td>
+      <td><input type="text" name="firstName"></td>
+    </tr>
+    <tr>
+      <td>Last Name:</td>
+      <td><input type="text" name="lastName"></td>
+    </tr>
+    <tr>
+      <td>Gender:</td>
+      <td>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+      </td>
+    </tr>
+    <tr>
+      <td>Address:</td>
+      <td>
+        <input type="text" name="address1"><br>
+        <input type="text" name="address2"><br>
+        <input type="text" name="city"><br>
+        <input type="text" name="state">
+      </td>
+    </tr>
+    <tr>
+      <td>Phone Number:</td>
+      <td><input type="text" name="phone"></td>
+    </tr>
+    <tr>
+      <td>Email Address:</td>
+      <td><input type="email" name="email"></td>
+    </tr>
+   <tr>
+      <td>Educational Background:</td>
+      <td>
+        <input type="checkbox" name="education" value="spm"> SPM<br>
+        <input type="checkbox" name="education" value="diploma"> Diploma<br>
+        <input type="checkbox" name="education" value="degree"> Degree<br>
+        <input type="checkbox" name="education" value="master"> Master<br>
+      </td>
+    </tr>
+    <tr>
+      <td>Username:</td>
+      <td><input type="text" name="username"></td>
+    </tr>
+    <tr>
+      <td>Password:</td>
+      <td><input type="password" name="password"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input type="submit" value="Submit"></td>
+    </tr>
+  </table>
+</form>
+</section>
+</div>
+
+<!-- Downloads -->
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<section id="downloads">
+ <p>Click the link below to download the resume:</p>
+  <a href="resume.docx" download>Download File</a>
+</section>
+</div>
+
+<!-- forgot Password -->
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<section id="forgot password">
+</div>
+
+<!-- login pages -->
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+    <section id="login">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    table {
+      margin: auto;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      padding: 8px 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    a {
+      color: #065fd4;
+      text-decoration: none;
+    }
+  </style>
+
+  <h2>Login</h2>
+  <table>
+    <tr>
+      <th colspan="2">Login Form</th>
+    </tr>
+    <tr>
+      <td>Username:</td>
+      <td><input type="text" name="username" placeholder="Enter your username"></td>
+    </tr>
+    <tr>
+      <td>Password:</td>
+      <td><input type="password" name="password" placeholder="Enter your password"></td>
+    </tr>
+    <tr>
+	<style>
+.button{
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover{
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active{
+  transform: translateY(-1px);
+}
+</style>
+      <td colspan="2" style="text-align: center;">
+     <button><input type="submit" value="Login"></button>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;">
+        <a href="#">Forgot Password?</a> | <a href="#">Sign Up </a>
+      </td>
+    </tr>
+  </table>
+	</section>
+</div>
+
+<!-- logout pages -->
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<section id="logout">
+<p>Nak logout, logout jelah.</p>
+<p>xde sape kisah.</p>
+ <button><input type="submit" value="Logout"></button>
+</section>
+</div>
+
+<!-- audio Background  -->
+<audio controls autoplay>
+  <source src="galleries/betterforyou.ogg" type="audio/ogg">
+  <source src="galleries/betterforyou.mp3" type="audio/mpeg">
+</audio>
+  
+
+
+    
+   
+    
+   
+
+   
+	</body>
+	
+	
